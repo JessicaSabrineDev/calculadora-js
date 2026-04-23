@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+
+.calculadora {
+    width: : 300px;
+    margin: auto;
+    background: #222;
+    padding: 15px;
+    border-radius: 10px;
+}
+#display {
+    width: 100%;
+    heigth: 60px;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: right;
+    box-sizing: border-box;
+}
+.botoes {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 8px;
+}
+button {
+    height: 70px;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    background: #444;
+    color: white;
+}
+button: hover {
+    background: #666;
+
+}
+.igual {
+    background: green;
+    color: white;
+}
